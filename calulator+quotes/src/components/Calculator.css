@@ -1,0 +1,40 @@
+.calculator {
+  width: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f5f5f5;
+}
+
+.keypad {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  margin-top: 10px;
+}
+
+input[type="text"] {
+  width: calc(100% - 10px);
+  padding: 10px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ddd;
+}
+
+.highlight {
+  background-color: #ffcc00;
+  color: #fff;
+  font-weight: bold;
+}
